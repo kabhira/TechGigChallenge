@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.abhi.techexplorer">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <meta-data android:name="com.here.android.maps.appid" android:value="p7ilaPL86K0WnrYQiWye"/>
+        <meta-data android:name="com.here.android.maps.apptoken" android:value="6PQ6YIAvDOTRYlUVuUDurg"/>
+        <meta-data android:name="com.here.android.maps.license.key" android:value="Xcyx4ALxRol/MvT/L/6f3nNEZPZrZ4AJx/I/AxmWlA/UgHH6Ejr2/BTZRKxCxdPg23IgjhPNV7UvuGrUSvXeTgSoBSyuR9oBPfL4aFr3xC2b3F+tHCrDGPM5Q1pWWVou7yZUgkAragkJZBZe0oPqkEM0GdDxY0P3cWzzNiYfck6c0Tl8FlrQUTx2zOk3hvh3xTrIElr0PIkwMBbFl2/KM43lWsqP0WuGpJ1NWCaN/vn6KrXCfVc9bon0Q6DUG5RQnBoZoC8KeHjiAqxtAAKY2wLt6DP04lZaQv9AAJbOnCf+n2I7lR7yN1k2+73iPGdVWV5oepNlSPtBhMvr3zEOJBY0BkvwslO0hQ/HC0F88ikdSvDXTANxeJ4nRirMVQzBtfwKCkn9J+91UyNpfieIWgZY9PmJWrOgqXjS0X0CtrQlKZkWMT3yHFuI3sSeF9jEc/wCjDOT6iJ/jGOiNZcME7elhaC4yTvc4+WxfM4fBa5/327Xv17U5njKXC2ZIOIUxoJR6OsjPh9OsWsPGZUAI8ZXNhWxsAibG4whjVI0Gq+MvhLg91L7rO2JkAjvPD9J0KdFbfZhXNfTlp4calPpB5+TB0uMJX27u3agYhlIwl2ojuYs4TdIfAMOacdabdMt1+529qF/pEm4m5d13F36ybezFmaD9OwqZEF5Rt48/jc="/>
+
+        <activity android:name=".MapActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name="com.here.android.mpa.service.MapService"
+            android:label="TechExplorerService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.here.android.mpa.service.MapService.techexplorer">
+                </action>
+            </intent-filter>
+        </service>
+
+    </application>
+
+</manifest>
