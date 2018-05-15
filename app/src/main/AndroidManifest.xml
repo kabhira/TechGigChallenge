@@ -21,7 +21,7 @@
         <meta-data android:name="com.here.android.maps.apptoken" android:value="6PQ6YIAvDOTRYlUVuUDurg"/>
         <meta-data android:name="com.here.android.maps.license.key" android:value="Xcyx4ALxRol/MvT/L/6f3nNEZPZrZ4AJx/I/AxmWlA/UgHH6Ejr2/BTZRKxCxdPg23IgjhPNV7UvuGrUSvXeTgSoBSyuR9oBPfL4aFr3xC2b3F+tHCrDGPM5Q1pWWVou7yZUgkAragkJZBZe0oPqkEM0GdDxY0P3cWzzNiYfck6c0Tl8FlrQUTx2zOk3hvh3xTrIElr0PIkwMBbFl2/KM43lWsqP0WuGpJ1NWCaN/vn6KrXCfVc9bon0Q6DUG5RQnBoZoC8KeHjiAqxtAAKY2wLt6DP04lZaQv9AAJbOnCf+n2I7lR7yN1k2+73iPGdVWV5oepNlSPtBhMvr3zEOJBY0BkvwslO0hQ/HC0F88ikdSvDXTANxeJ4nRirMVQzBtfwKCkn9J+91UyNpfieIWgZY9PmJWrOgqXjS0X0CtrQlKZkWMT3yHFuI3sSeF9jEc/wCjDOT6iJ/jGOiNZcME7elhaC4yTvc4+WxfM4fBa5/327Xv17U5njKXC2ZIOIUxoJR6OsjPh9OsWsPGZUAI8ZXNhWxsAibG4whjVI0Gq+MvhLg91L7rO2JkAjvPD9J0KdFbfZhXNfTlp4calPpB5+TB0uMJX27u3agYhlIwl2ojuYs4TdIfAMOacdabdMt1+529qF/pEm4m5d13F36ybezFmaD9OwqZEF5Rt48/jc="/>
 
-        <activity android:name=".MapActivity">
+        <activity android:name=".view.MapActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">TechExplorer</string>
+    <string-array name="array_bus">
+        <item>Select</item>
+        <item>500D</item>
+        <item>500C</item>
+    </string-array>
 </resources>
